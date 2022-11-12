@@ -12,12 +12,12 @@ var TEXT map[string]string = map[string]string{
 <i>I can save a custom reply for a word in any chat. Check my help menu for more details.</i>
 	`,
 	"ABOUT": `
-<b>Լαɳցᥙαցҽ</b> : <a href='https://go.dev'>𝗚𝗢</a>
-<b>Ƒɾα𝓶ҽɯσƙ</b> : <a href='github.com/PaulSonOfLars/gotgbot'>𝗴𝗼𝘁𝗴𝗯𝗼𝘁</a>
-<b>Sҽɾʋҽɾ</b> : <a href='heroku.com'>𝗛𝗲𝗿𝗼𝗸𝘂</a>
-<b>Ɗα𝜏αẞαടҽ</b> : <a href='mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
-<b>Ɗҽʋҽɬσρҽɾ</b> : <a href='t.me/athulx80'>𝗔𝘁𝗵𝘂𝗹</a>
-<b>Sᥙρρσɾ𝜏</b> : <a href='t.me/jisin_hub'>𝗛𝗲𝗿𝗲</a>
+<b>𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿</b> : <a href='https://go.dev'>𝗔𝘁𝗵𝘂𝗹</a>
+<b>𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲</b> : <a href='https://go.dev/'>𝗚𝗼</a>
+<b>𝗦𝗲𝗿𝘃𝗲𝗿</b> : <a href='heroku.com'>𝗛𝗲𝗿𝗼𝗸𝘂</a>
+<b>𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲</b> : <a href='mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
+<b>𝗖𝗵𝗮𝗻𝗻𝗲𝗹</b> : <a href='https://t.me/+L8SWfrF_7m04ODZl'>𝗛𝗲𝗿𝗲</a>
+<b>𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁</b> : <a href=''>𝗛𝗲𝗿𝗲</a>
 	`,
 
 	"MF": `
@@ -83,29 +83,29 @@ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ -><code>/filter "keyword"</code>
 var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton{
 	"START": {
 		{
-			{Text: "☂ Aʙᴏᴜᴛ ☂", CallbackData: "edit(ABOUT)"},
-			{Text: "🧭 Help 🧭", CallbackData: "edit(HELP)"},
-			{Text: "🫂 Sᴜᴘᴘᴏʀᴛ 🫂", Url: "t.me/Jisin0"},
+			{Text: "ᴀʙᴏᴜᴛ", CallbackData: "edit(ABOUT)"},
+			{Text: "ʜᴇʟᴘ", CallbackData: "edit(HELP)"},
+			{Text: "ꜱᴜᴘᴘᴏʀᴛ", Url: "https://t.me/+L8SWfrF_7m04ODZl"},
 		},
 	},
 	"ABOUT": {
 		{
-			{Text: "𝙷𝙾𝙼𝙴", CallbackData: "edit(START)"},
-			{Text: "𝚂𝚃𝙰𝚃𝚂", CallbackData: "stats"},
+			{Text: "ʜᴏᴍᴇ", CallbackData: "edit(START)"},
+			{Text: "ꜱᴛᴀᴛꜱ", CallbackData: "stats"},
 		},
 	},
 	"STATS": {
 		{
-			{Text: "𝙱𝙰𝙲𝙺", CallbackData: "edit(ABOUT)"},
-			{Text: "𝚁𝙴𝙵𝚁𝙴𝚂𝙷", CallbackData: "stats"},
+			{Text: "ʙᴀᴄᴋ", CallbackData: "edit(ABOUT)"},
+			{Text: "ʀᴇꜰʀᴇꜱʜ", CallbackData: "stats"},
 		},
 	},
 	"HELP": {
-		{{Text: "Fɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
-			{Text: "Gʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
+		{{Text: "ꜰɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
+			{Text: "ɢʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
 		}, {
-			{Text: "Cᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
+			{Text: "ᴄᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
 		},
-		{{Text: "Bᴀᴄᴋ ➔", CallbackData: "edit(START)"}},
+		{{Text: "ʙᴀᴄᴋ", CallbackData: "edit(START)"}},
 	},
 }
