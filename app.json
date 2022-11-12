@@ -1,14 +1,14 @@
 {
     "name": "Go Filter Bot",
     "description": "A Simple yet superfast Filter bot written in pure Go",
-    "logo": "https://raw.githubusercontent.com/Jisin0/Go-Filter-Bot/logo.jpg",
+    "logo": "https://telegra.ph/file/97b6c9ce77dd143d00b24.jpg",
     "keywords": [
         "Go",
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/Jisin0",
-    "repository": "https://github.com/Jisin0/Go-Filter-Bot",
+    "website": "https://github.com/athulx80",
+    "repository": "https://github.com/athulx80/Go-Filter-Bot",
     "success_url": "https://telegram.dog/Jisin0",
     "env": {
         "BOT_TOKEN": {
