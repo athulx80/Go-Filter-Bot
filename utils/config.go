@@ -16,7 +16,7 @@ var TEXT map[string]string = map[string]string{
 <b>Ƒɾα𝓶ҽɯσƙ</b> : <a href='github.com/PaulSonOfLars/gotgbot'>𝗴𝗼𝘁𝗴𝗯𝗼𝘁</a>
 <b>Sҽɾʋҽɾ</b> : <a href='heroku.com'>𝗛𝗲𝗿𝗼𝗸𝘂</a>
 <b>Ɗα𝜏αẞαടҽ</b> : <a href='mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
-<b>Ɗҽʋҽɬσρҽɾ</b> : <a href='t.me/jisin0'>𝗝𝗶𝘀𝗶𝗻𝟬</a>
+<b>Ɗҽʋҽɬσρҽɾ</b> : <a href='t.me/athulx80'>𝗔𝘁𝗵𝘂𝗹</a>
 <b>Sᥙρρσɾ𝜏</b> : <a href='t.me/jisin_hub'>𝗛𝗲𝗿𝗲</a>
 	`,
 
